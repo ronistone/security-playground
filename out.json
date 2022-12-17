@@ -1,0 +1,1604 @@
+[
+    {
+        "id": "196eb5bfd52d4a538d4d0a801808298faadec1fc9aeb07c231add0161b416807",
+        "description": "trojan.linux/ransomexx",
+        "type_description": "ELF",
+        "size": 259680,
+        "analyse": [
+            {
+                "name": "ALYac",
+                "result": "Trojan.Ransom.Linux.Gen",
+                "category": "malicious"
+            },
+            {
+                "name": "APEX",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "AVG",
+                "result": "ELF:Encoder-K [Trj]",
+                "category": "malicious"
+            },
+            {
+                "name": "Acronis",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Ad-Aware",
+                "result": "Gen:Variant.Trojan.Linux.RansomEXX.1",
+                "category": "malicious"
+            },
+            {
+                "name": "AhnLab-V3",
+                "result": "Ransomware/Linux.Agent",
+                "category": "malicious"
+            },
+            {
+                "name": "Alibaba",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Antiy-AVL",
+                "result": "Trojan/Linux.Generic",
+                "category": "malicious"
+            },
+            {
+                "name": "Arcabit",
+                "result": "Trojan.Trojan.Linux.RansomEXX.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Avast",
+                "result": "ELF:Encoder-K [Trj]",
+                "category": "malicious"
+            },
+            {
+                "name": "Avast-Mobile",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Avira",
+                "result": "LINUX/Agent.gysyp",
+                "category": "malicious"
+            },
+            {
+                "name": "Baidu",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "BitDefender",
+                "result": "Gen:Variant.Trojan.Linux.RansomEXX.1",
+                "category": "malicious"
+            },
+            {
+                "name": "BitDefenderFalx",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "BitDefenderTheta",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Bkav",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "CAT-QuickHeal",
+                "result": "ELF.Trojan.45068.GC",
+                "category": "malicious"
+            },
+            {
+                "name": "CMC",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "ClamAV",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Comodo",
+                "result": "Malware@#428f1zschrmw",
+                "category": "malicious"
+            },
+            {
+                "name": "CrowdStrike",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Cybereason",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Cylance",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Cynet",
+                "result": "Malicious (score: 99)",
+                "category": "malicious"
+            },
+            {
+                "name": "Cyren",
+                "result": "E64/DCFilcdr.CLTZ-",
+                "category": "malicious"
+            },
+            {
+                "name": "DrWeb",
+                "result": "Linux.Encoder.75",
+                "category": "malicious"
+            },
+            {
+                "name": "ESET-NOD32",
+                "result": "a variant of Linux/Filecoder.RansomEXX.A",
+                "category": "malicious"
+            },
+            {
+                "name": "Elastic",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Emsisoft",
+                "result": "Gen:Variant.Trojan.Linux.RansomEXX.1 (B)",
+                "category": "malicious"
+            },
+            {
+                "name": "F-Secure",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "FireEye",
+                "result": "Gen:Variant.Trojan.Linux.RansomEXX.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Fortinet",
+                "result": "ELF/RansomEXX.A!tr",
+                "category": "malicious"
+            },
+            {
+                "name": "GData",
+                "result": "Gen:Variant.Trojan.Linux.RansomEXX.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Google",
+                "result": "Detected",
+                "category": "malicious"
+            },
+            {
+                "name": "Gridinsoft",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Ikarus",
+                "result": "Trojan-Ransom.Ransomexx",
+                "category": "malicious"
+            },
+            {
+                "name": "Jiangmin",
+                "result": "Trojan.Linux.aye",
+                "category": "malicious"
+            },
+            {
+                "name": "K7AntiVirus",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "K7GW",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Kaspersky",
+                "result": "HEUR:Trojan-Ransom.Linux.Ransomexx.c",
+                "category": "malicious"
+            },
+            {
+                "name": "Kingsoft",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Lionic",
+                "result": "Trojan.Linux.Ransomexx.j!c",
+                "category": "malicious"
+            },
+            {
+                "name": "MAX",
+                "result": "malware (ai score=100)",
+                "category": "malicious"
+            },
+            {
+                "name": "Malwarebytes",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "MaxSecure",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "McAfee",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "McAfee-GW-Edition",
+                "result": "Lnx/Encoder-GZJ!F7C4CB42780B",
+                "category": "malicious"
+            },
+            {
+                "name": "MicroWorld-eScan",
+                "result": "Gen:Variant.Trojan.Linux.RansomEXX.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Microsoft",
+                "result": "Ransom:Linux/RansomExx.A!MTB",
+                "category": "malicious"
+            },
+            {
+                "name": "NANO-Antivirus",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Paloalto",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Panda",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Rising",
+                "result": "Ransom.RansomEXX/Linux!1.CE94 (CLASSIC)",
+                "category": "malicious"
+            },
+            {
+                "name": "SUPERAntiSpyware",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Sangfor",
+                "result": "Suspicious.Win32.Agent.kf",
+                "category": "malicious"
+            },
+            {
+                "name": "SentinelOne",
+                "result": "Static AI - Malicious ELF",
+                "category": "malicious"
+            },
+            {
+                "name": "Sophos",
+                "result": "Linux/Ransm-I",
+                "category": "malicious"
+            },
+            {
+                "name": "Symantec",
+                "result": "Linux.RansomEXX",
+                "category": "malicious"
+            },
+            {
+                "name": "SymantecMobileInsight",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "TACHYON",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Tencent",
+                "result": "Win32.Trojan.Ransom.Vfoy",
+                "category": "malicious"
+            },
+            {
+                "name": "Trapmine",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "TrendMicro",
+                "result": "Ransom.Linux.DEFRAY.A",
+                "category": "malicious"
+            },
+            {
+                "name": "TrendMicro-HouseCall",
+                "result": "Ransom.Linux.DEFRAY.A",
+                "category": "malicious"
+            },
+            {
+                "name": "Trustlook",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "VBA32",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "VIPRE",
+                "result": "Gen:Variant.Trojan.Linux.RansomEXX.1",
+                "category": "malicious"
+            },
+            {
+                "name": "ViRobot",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "VirIT",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Webroot",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Yandex",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Zillya",
+                "result": "Trojan.Filecoder.Linux.56",
+                "category": "malicious"
+            },
+            {
+                "name": "ZoneAlarm",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Zoner",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "tehtris",
+                "result": null,
+                "category": "type-unsupported"
+            }
+        ]
+    },
+    {
+        "id": "cd9c621c0398dd8935890ffbe48a6cb1ebf8e7170b58b2a4981d98813d121282",
+        "description": "trojan.linux/mirai",
+        "type_description": "ELF",
+        "size": 36152,
+        "analyse": [
+            {
+                "name": "ALYac",
+                "result": "Trojan.Linux.Mirai.1",
+                "category": "malicious"
+            },
+            {
+                "name": "APEX",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "AVG",
+                "result": "ELF:CVE-2017-17215-A [Expl]",
+                "category": "malicious"
+            },
+            {
+                "name": "Acronis",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Ad-Aware",
+                "result": "Trojan.Linux.Mirai.1",
+                "category": "malicious"
+            },
+            {
+                "name": "AhnLab-V3",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Alibaba",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Antiy-AVL",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Arcabit",
+                "result": "Trojan.Linux.Mirai.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Avast",
+                "result": "ELF:CVE-2017-17215-A [Expl]",
+                "category": "malicious"
+            },
+            {
+                "name": "Avast-Mobile",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Avira",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Baidu",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "BitDefender",
+                "result": "Trojan.Linux.Mirai.1",
+                "category": "malicious"
+            },
+            {
+                "name": "BitDefenderFalx",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "BitDefenderTheta",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Bkav",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "CAT-QuickHeal",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "CMC",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "ClamAV",
+                "result": "Unix.Dropper.Mirai-7135858-0",
+                "category": "malicious"
+            },
+            {
+                "name": "Comodo",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "CrowdStrike",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Cylance",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Cynet",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Cyren",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "DrWeb",
+                "result": "Linux.Mirai.4511",
+                "category": "malicious"
+            },
+            {
+                "name": "ESET-NOD32",
+                "result": "a variant of Linux/Gafgyt.AXI",
+                "category": "malicious"
+            },
+            {
+                "name": "Elastic",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Emsisoft",
+                "result": "Trojan.Linux.Mirai.1 (B)",
+                "category": "malicious"
+            },
+            {
+                "name": "F-Secure",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "FireEye",
+                "result": "Trojan.Linux.Mirai.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Fortinet",
+                "result": "ELF/Gafgyt.AXI!tr",
+                "category": "malicious"
+            },
+            {
+                "name": "GData",
+                "result": "Trojan.Linux.Mirai.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Gridinsoft",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Ikarus",
+                "result": "Trojan.Linux.Gafgyt",
+                "category": "malicious"
+            },
+            {
+                "name": "Jiangmin",
+                "result": "TrojanDDoS.Linux.nk",
+                "category": "malicious"
+            },
+            {
+                "name": "K7AntiVirus",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "K7GW",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Kaspersky",
+                "result": "HEUR:Backdoor.Linux.Mirai.ad",
+                "category": "malicious"
+            },
+            {
+                "name": "Kingsoft",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Lionic",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "MAX",
+                "result": "malware (ai score=81)",
+                "category": "malicious"
+            },
+            {
+                "name": "Malwarebytes",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "MaxSecure",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "McAfee",
+                "result": "GenericRXOE-FN!9F5285D74C8E",
+                "category": "malicious"
+            },
+            {
+                "name": "McAfee-GW-Edition",
+                "result": "GenericRXOE-FN!9F5285D74C8E",
+                "category": "malicious"
+            },
+            {
+                "name": "MicroWorld-eScan",
+                "result": "Trojan.Linux.Mirai.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Microsoft",
+                "result": "Trojan:Script/Wacatac.B!ml",
+                "category": "malicious"
+            },
+            {
+                "name": "NANO-Antivirus",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Paloalto",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Panda",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Rising",
+                "result": "Backdoor.Mirai/Linux!1.BAF6 (CLASSIC)",
+                "category": "malicious"
+            },
+            {
+                "name": "SUPERAntiSpyware",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Sangfor",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "SentinelOne",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Sophos",
+                "result": "Linux/DDoS-CIA",
+                "category": "malicious"
+            },
+            {
+                "name": "Symantec",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "SymantecMobileInsight",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "TACHYON",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Tencent",
+                "result": "Backdoor.Linux.Mirai.wan",
+                "category": "malicious"
+            },
+            {
+                "name": "Trapmine",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "TrendMicro",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "TrendMicro-HouseCall",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Trustlook",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "VBA32",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "VIPRE",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "ViRobot",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Webroot",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Yandex",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Zillya",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "ZoneAlarm",
+                "result": "HEUR:Backdoor.Linux.Mirai.ad",
+                "category": "malicious"
+            },
+            {
+                "name": "Zoner",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "eGambit",
+                "result": null,
+                "category": "type-unsupported"
+            }
+        ]
+    },
+    {
+        "id": "7786483b897971c243102c6203d0f19608524cba52136ae5fa71803e74d55825",
+        "description": "trojan.encoder/bulz",
+        "type_description": "Win32 EXE",
+        "size": 2749952,
+        "analyse": [
+            {
+                "name": "ALYac",
+                "result": "Trojan.Ransom.Filecoder",
+                "category": "malicious"
+            },
+            {
+                "name": "APEX",
+                "result": "Malicious",
+                "category": "malicious"
+            },
+            {
+                "name": "AVG",
+                "result": "Win64:Trojan-gen",
+                "category": "malicious"
+            },
+            {
+                "name": "Acronis",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Ad-Aware",
+                "result": "Gen:Variant.Bulz.284323",
+                "category": "malicious"
+            },
+            {
+                "name": "AhnLab-V3",
+                "result": "Behavior_Ransom/Win.Generic.C4401213",
+                "category": "malicious"
+            },
+            {
+                "name": "Alibaba",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Antiy-AVL",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Arcabit",
+                "result": "Trojan.Bulz.D456A3",
+                "category": "malicious"
+            },
+            {
+                "name": "Avast",
+                "result": "Win64:Trojan-gen",
+                "category": "malicious"
+            },
+            {
+                "name": "Avast-Mobile",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Avira",
+                "result": "TR/FileCoder.bture",
+                "category": "malicious"
+            },
+            {
+                "name": "Baidu",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "BitDefender",
+                "result": "Gen:Variant.Bulz.284323",
+                "category": "malicious"
+            },
+            {
+                "name": "BitDefenderFalx",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "BitDefenderTheta",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Bkav",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "CAT-QuickHeal",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "CMC",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "ClamAV",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Comodo",
+                "result": "Malware@#1aqv4g46pfb3u",
+                "category": "malicious"
+            },
+            {
+                "name": "CrowdStrike",
+                "result": "win/malicious_confidence_100% (W)",
+                "category": "malicious"
+            },
+            {
+                "name": "Cybereason",
+                "result": "malicious.ebbce7",
+                "category": "malicious"
+            },
+            {
+                "name": "Cylance",
+                "result": "Unsafe",
+                "category": "malicious"
+            },
+            {
+                "name": "Cynet",
+                "result": "Malicious (score: 100)",
+                "category": "malicious"
+            },
+            {
+                "name": "Cyren",
+                "result": "W64/Trojan.RYSV-1622",
+                "category": "malicious"
+            },
+            {
+                "name": "DrWeb",
+                "result": "Trojan.Encoder.32589",
+                "category": "malicious"
+            },
+            {
+                "name": "ESET-NOD32",
+                "result": "a variant of Win64/Filecoder.BK",
+                "category": "malicious"
+            },
+            {
+                "name": "Elastic",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Emsisoft",
+                "result": "Gen:Variant.Bulz.284323 (B)",
+                "category": "malicious"
+            },
+            {
+                "name": "F-Secure",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "FireEye",
+                "result": "Gen:Variant.Bulz.284323",
+                "category": "malicious"
+            },
+            {
+                "name": "Fortinet",
+                "result": "W64/Filecoder.BK!tr.ransom",
+                "category": "malicious"
+            },
+            {
+                "name": "GData",
+                "result": "Win64.Trojan.FileCoder.CT",
+                "category": "malicious"
+            },
+            {
+                "name": "Gridinsoft",
+                "result": "Ransom.Win64.Ransom.oa!s1",
+                "category": "malicious"
+            },
+            {
+                "name": "Ikarus",
+                "result": "Trojan.WinGo.Rozena",
+                "category": "malicious"
+            },
+            {
+                "name": "Jiangmin",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "K7AntiVirus",
+                "result": "Trojan ( 00567bed1 )",
+                "category": "malicious"
+            },
+            {
+                "name": "K7GW",
+                "result": "Trojan ( 00567bed1 )",
+                "category": "malicious"
+            },
+            {
+                "name": "Kaspersky",
+                "result": "Trojan-Ransom.Win32.Encoder.kci",
+                "category": "malicious"
+            },
+            {
+                "name": "Kingsoft",
+                "result": "Win32.Troj.Undef.(kcloud)",
+                "category": "malicious"
+            },
+            {
+                "name": "Lionic",
+                "result": "Trojan.Win32.Encoder.trPf",
+                "category": "malicious"
+            },
+            {
+                "name": "MAX",
+                "result": "malware (ai score=100)",
+                "category": "malicious"
+            },
+            {
+                "name": "Malwarebytes",
+                "result": "Ransom.GoCryptoLocker",
+                "category": "malicious"
+            },
+            {
+                "name": "MaxSecure",
+                "result": "Trojan.Malware.73926358.susgen",
+                "category": "malicious"
+            },
+            {
+                "name": "McAfee",
+                "result": "Artemis!8F616DDEBBCE",
+                "category": "malicious"
+            },
+            {
+                "name": "McAfee-GW-Edition",
+                "result": "BehavesLike.Win64.Drixed.vh",
+                "category": "malicious"
+            },
+            {
+                "name": "MicroWorld-eScan",
+                "result": "Gen:Variant.Bulz.284323",
+                "category": "malicious"
+            },
+            {
+                "name": "Microsoft",
+                "result": "Ransom:Win32/Filecoder!MSR",
+                "category": "malicious"
+            },
+            {
+                "name": "NANO-Antivirus",
+                "result": "Trojan.Win64.Encoder.hvizsh",
+                "category": "malicious"
+            },
+            {
+                "name": "Paloalto",
+                "result": "generic.ml",
+                "category": "malicious"
+            },
+            {
+                "name": "Panda",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Rising",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "SUPERAntiSpyware",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Sangfor",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "SentinelOne",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Sophos",
+                "result": "Mal/Generic-S",
+                "category": "malicious"
+            },
+            {
+                "name": "Symantec",
+                "result": "Downloader",
+                "category": "malicious"
+            },
+            {
+                "name": "SymantecMobileInsight",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "TACHYON",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Tencent",
+                "result": "Win32.Trojan.Encoder.Ednt",
+                "category": "malicious"
+            },
+            {
+                "name": "Trapmine",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "TrendMicro",
+                "result": "Ransom_Encoder.R002C0DE621",
+                "category": "malicious"
+            },
+            {
+                "name": "TrendMicro-HouseCall",
+                "result": "Ransom_Encoder.R002C0DE621",
+                "category": "malicious"
+            },
+            {
+                "name": "Trustlook",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "VBA32",
+                "result": "TrojanRansom.Encoder",
+                "category": "malicious"
+            },
+            {
+                "name": "VIPRE",
+                "result": "Trojan.Win32.Generic!BT",
+                "category": "malicious"
+            },
+            {
+                "name": "ViRobot",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Webroot",
+                "result": "W32.Trojan.Gen",
+                "category": "malicious"
+            },
+            {
+                "name": "Yandex",
+                "result": "Trojan.Filecoder!2kdBcke1mBw",
+                "category": "malicious"
+            },
+            {
+                "name": "Zillya",
+                "result": "Trojan.Filecoder.Win64.9165",
+                "category": "malicious"
+            },
+            {
+                "name": "ZoneAlarm",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Zoner",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "eGambit",
+                "result": null,
+                "category": "undetected"
+            }
+        ]
+    },
+    {
+        "id": "a1b05e1fc423dd9540b3c34cec562626358f55213ca3b352052792eaf8a9c98a",
+        "description": "trojan.stuxnet/nsanti",
+        "type_description": "Win32 EXE",
+        "size": 517632,
+        "analyse": [
+            {
+                "name": "ALYac",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "APEX",
+                "result": "Malicious",
+                "category": "malicious"
+            },
+            {
+                "name": "AVG",
+                "result": "Win32:Duqu-F [Rtk]",
+                "category": "malicious"
+            },
+            {
+                "name": "Acronis",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Ad-Aware",
+                "result": "Gen:Variant.NSAnti.1",
+                "category": "malicious"
+            },
+            {
+                "name": "AhnLab-V3",
+                "result": "Worm/Win32.Stuxnet.C4192187",
+                "category": "malicious"
+            },
+            {
+                "name": "Alibaba",
+                "result": "Worm:Win32/Stuxnet.3463e318",
+                "category": "malicious"
+            },
+            {
+                "name": "Antiy-AVL",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Arcabit",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Avast",
+                "result": "Win32:Duqu-F [Rtk]",
+                "category": "malicious"
+            },
+            {
+                "name": "Avast-Mobile",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "Avira",
+                "result": "TR/Drop.Stuxnet.A",
+                "category": "malicious"
+            },
+            {
+                "name": "Baidu",
+                "result": "Win32.Worm.Stuxnet.b",
+                "category": "malicious"
+            },
+            {
+                "name": "BitDefender",
+                "result": "Gen:Variant.NSAnti.1",
+                "category": "malicious"
+            },
+            {
+                "name": "BitDefenderFalx",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "BitDefenderTheta",
+                "result": "AI:Packer.6A724B341E",
+                "category": "malicious"
+            },
+            {
+                "name": "Bkav",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "CAT-QuickHeal",
+                "result": "TrojanDropper.Stuxnet.A",
+                "category": "malicious"
+            },
+            {
+                "name": "CMC",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "ClamAV",
+                "result": "Win.Trojan.Stuxnet-16",
+                "category": "malicious"
+            },
+            {
+                "name": "Comodo",
+                "result": "Worm.Win32.Stuxnet.a@222np3",
+                "category": "malicious"
+            },
+            {
+                "name": "CrowdStrike",
+                "result": "win/malicious_confidence_70% (D)",
+                "category": "malicious"
+            },
+            {
+                "name": "Cybereason",
+                "result": "malicious.dcbc7f",
+                "category": "malicious"
+            },
+            {
+                "name": "Cylance",
+                "result": "Unsafe",
+                "category": "malicious"
+            },
+            {
+                "name": "Cynet",
+                "result": "Malicious (score: 100)",
+                "category": "malicious"
+            },
+            {
+                "name": "Cyren",
+                "result": "W32/Stuxnet.A.gen!Eldorado",
+                "category": "malicious"
+            },
+            {
+                "name": "DrWeb",
+                "result": "Trojan.Stuxnet.1",
+                "category": "malicious"
+            },
+            {
+                "name": "ESET-NOD32",
+                "result": "Win32/Stuxnet.A",
+                "category": "malicious"
+            },
+            {
+                "name": "Elastic",
+                "result": "malicious (high confidence)",
+                "category": "malicious"
+            },
+            {
+                "name": "Emsisoft",
+                "result": "Gen:Variant.NSAnti.1 (B)",
+                "category": "malicious"
+            },
+            {
+                "name": "F-Secure",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "FireEye",
+                "result": "Generic.mg.03dc793dcbc7f24a",
+                "category": "malicious"
+            },
+            {
+                "name": "Fortinet",
+                "result": "W32/Stuxnet.E!tr",
+                "category": "malicious"
+            },
+            {
+                "name": "GData",
+                "result": "Gen:Variant.NSAnti.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Gridinsoft",
+                "result": "Trojan.Heur!.020520A1",
+                "category": "malicious"
+            },
+            {
+                "name": "Ikarus",
+                "result": "Trojan.Win32.Stuxnet",
+                "category": "malicious"
+            },
+            {
+                "name": "Jiangmin",
+                "result": "TrojanDropper.Stuxnet.c",
+                "category": "malicious"
+            },
+            {
+                "name": "K7AntiVirus",
+                "result": "EmailWorm ( 001c97af1 )",
+                "category": "malicious"
+            },
+            {
+                "name": "K7GW",
+                "result": "Trojan ( 004bb9201 )",
+                "category": "malicious"
+            },
+            {
+                "name": "Kaspersky",
+                "result": "Worm.Win32.Stuxnet.e",
+                "category": "malicious"
+            },
+            {
+                "name": "Kingsoft",
+                "result": "Win32.Troj.LmAgentT.ar.517632.(kcloud)",
+                "category": "malicious"
+            },
+            {
+                "name": "Lionic",
+                "result": "Worm.Win32.Stuxnet.lv3n",
+                "category": "malicious"
+            },
+            {
+                "name": "MAX",
+                "result": "malware (ai score=100)",
+                "category": "malicious"
+            },
+            {
+                "name": "Malwarebytes",
+                "result": "Trojan.Stuxnet",
+                "category": "malicious"
+            },
+            {
+                "name": "MaxSecure",
+                "result": "Trojan.Malware.1407766.susgen",
+                "category": "malicious"
+            },
+            {
+                "name": "McAfee",
+                "result": "Stuxnet.a",
+                "category": "malicious"
+            },
+            {
+                "name": "McAfee-GW-Edition",
+                "result": "BehavesLike.Win32.Generic.hc",
+                "category": "malicious"
+            },
+            {
+                "name": "MicroWorld-eScan",
+                "result": "Gen:Variant.NSAnti.1",
+                "category": "malicious"
+            },
+            {
+                "name": "Microsoft",
+                "result": "Trojan:Win32/Stuxnet.E",
+                "category": "malicious"
+            },
+            {
+                "name": "NANO-Antivirus",
+                "result": "Trojan.Win32.Stuxnet.yqyt",
+                "category": "malicious"
+            },
+            {
+                "name": "Paloalto",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Panda",
+                "result": "W32/Stuxnet.A.worm",
+                "category": "malicious"
+            },
+            {
+                "name": "Qihoo-360",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Rising",
+                "result": "Worm.Win32.Stuxnet.a (CLOUD)",
+                "category": "malicious"
+            },
+            {
+                "name": "SUPERAntiSpyware",
+                "result": "Trojan.Agent/Gen-MultiDrop",
+                "category": "malicious"
+            },
+            {
+                "name": "Sangfor",
+                "result": "Trojan.Win32.Save.a",
+                "category": "malicious"
+            },
+            {
+                "name": "SentinelOne",
+                "result": "Static AI - Malicious PE",
+                "category": "malicious"
+            },
+            {
+                "name": "Sophos",
+                "result": "ML/PE-A + Troj/Stuxnet-A",
+                "category": "malicious"
+            },
+            {
+                "name": "Symantec",
+                "result": "W32.Stuxnet",
+                "category": "malicious"
+            },
+            {
+                "name": "SymantecMobileInsight",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "TACHYON",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Tencent",
+                "result": "Malware.Win32.Gencirc.10b3b031",
+                "category": "malicious"
+            },
+            {
+                "name": "Trapmine",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "TrendMicro",
+                "result": "WORM_STUXNET.SM",
+                "category": "malicious"
+            },
+            {
+                "name": "TrendMicro-HouseCall",
+                "result": "WORM_STUXNET.SM",
+                "category": "malicious"
+            },
+            {
+                "name": "Trustlook",
+                "result": null,
+                "category": "type-unsupported"
+            },
+            {
+                "name": "VBA32",
+                "result": "Worm.Stuxnet",
+                "category": "malicious"
+            },
+            {
+                "name": "VIPRE",
+                "result": "Trojan-Dropper.Win32.Stuxnet.A (v)",
+                "category": "malicious"
+            },
+            {
+                "name": "ViRobot",
+                "result": "Dropper.Stuxnet.517632",
+                "category": "malicious"
+            },
+            {
+                "name": "Webroot",
+                "result": "W32.Stuxnet",
+                "category": "malicious"
+            },
+            {
+                "name": "Yandex",
+                "result": "Trojan.GenAsa!dGo9sYSlFmY",
+                "category": "malicious"
+            },
+            {
+                "name": "Zillya",
+                "result": "Worm.Stuxnet.Win32.25",
+                "category": "malicious"
+            },
+            {
+                "name": "ZoneAlarm",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "Zoner",
+                "result": null,
+                "category": "undetected"
+            },
+            {
+                "name": "eGambit",
+                "result": null,
+                "category": "undetected"
+            }
+        ]
+    }
+]
+{
+    "Acronis": 0,
+    "Avast-Mobile": 0,
+    "BitDefenderFalx": 0,
+    "Bkav": 0,
+    "CMC": 0,
+    "F-Secure": 0,
+    "SymantecMobileInsight": 0,
+    "TACHYON": 0,
+    "Trapmine": 0,
+    "Trustlook": 0,
+    "VirIT": 0,
+    "Zoner": 0,
+    "tehtris": 0,
+    "eGambit": 0,
+    "Qihoo-360": 0,
+    "Alibaba": 1,
+    "Antiy-AVL": 1,
+    "Baidu": 1,
+    "BitDefenderTheta": 1,
+    "Elastic": 1,
+    "Google": 1,
+    "Paloalto": 1,
+    "Panda": 1,
+    "SUPERAntiSpyware": 1,
+    "ViRobot": 1,
+    "ZoneAlarm": 1,
+    "APEX": 2,
+    "CAT-QuickHeal": 2,
+    "ClamAV": 2,
+    "CrowdStrike": 2,
+    "Cybereason": 2,
+    "Cylance": 2,
+    "Gridinsoft": 2,
+    "K7AntiVirus": 2,
+    "K7GW": 2,
+    "Kingsoft": 2,
+    "Malwarebytes": 2,
+    "MaxSecure": 2,
+    "NANO-Antivirus": 2,
+    "Sangfor": 2,
+    "SentinelOne": 2,
+    "VBA32": 2,
+    "Webroot": 2,
+    "Yandex": 2,
+    "ALYac": 3,
+    "AhnLab-V3": 3,
+    "Arcabit": 3,
+    "Avira": 3,
+    "Comodo": 3,
+    "Cynet": 3,
+    "Cyren": 3,
+    "Jiangmin": 3,
+    "Lionic": 3,
+    "McAfee": 3,
+    "Rising": 3,
+    "Symantec": 3,
+    "TrendMicro": 3,
+    "TrendMicro-HouseCall": 3,
+    "VIPRE": 3,
+    "Zillya": 3,
+    "AVG": 4,
+    "Ad-Aware": 4,
+    "Avast": 4,
+    "BitDefender": 4,
+    "DrWeb": 4,
+    "ESET-NOD32": 4,
+    "Emsisoft": 4,
+    "FireEye": 4,
+    "Fortinet": 4,
+    "GData": 4,
+    "Ikarus": 4,
+    "Kaspersky": 4,
+    "MAX": 4,
+    "McAfee-GW-Edition": 4,
+    "MicroWorld-eScan": 4,
+    "Microsoft": 4,
+    "Sophos": 4,
+    "Tencent": 4
+}
